@@ -1,0 +1,13 @@
+{
+  "name": "camtest",
+  "version-string": "0.1.0",
+  "dependencies": [
+      "sdl2",
+      "sdl2-image",
+      {
+        "name": "imgui",
+        "features": ["sdl2-binding", "sdl2-renderer-binding"]
+      },
+      "fmt"
+  ]
+}
